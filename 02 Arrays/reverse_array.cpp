@@ -2,7 +2,7 @@
 using namespace std;
 
 //Problem : Reverse all the elements of a given array
-void reverseArray(int arr[],int n){
+void reverseArray(int* arr,int n){
 
 	int s = 0;
 	int e = n - 1;

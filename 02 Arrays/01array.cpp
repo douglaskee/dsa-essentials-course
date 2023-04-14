@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-	int marks[100] = {-1};
+	int marks[10] = {-1};
 
 	int n;
 	cout<<"Enter the no of students ";
@@ -21,9 +21,8 @@ int main(){
 
 	//Update 
 
-
 	//Output
-	for(int i=0;i<100;i++){
+	for(int i=1;i<10;i++){
 		cout<< marks[i] <<" ,";
 	}
 

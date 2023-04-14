@@ -2,7 +2,7 @@
 using namespace std;
 	
 
-int binary_search(int arr[],int n,int key){
+int binary_search(int* arr,int n,int key){
 	//Implement binary search
 	int s = 0;
 	int e = n - 1;
